@@ -1,0 +1,71 @@
+body
+{
+	box-sizing: border-box;
+	margin: 0px;
+	padding:0px;
+}
+.containerlogin
+{
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+	url(../img/banner1.jpg);
+	width: 100%;
+	height: 600px;
+	background-size: cover;	
+	
+}
+.loginform
+{
+	
+	color: #e1bb77;
+	height: 300px;
+	width: 320px;
+	position: relative;
+	margin: auto;
+		
+}
+.box
+{
+	border:1px solid white;
+	height: 300px;
+	top: 130px;	
+	position: absolute;
+	border-radius: 20px;
+}
+
+label
+{
+	color: white;
+	display: flex;
+	margin: 2px 15px;
+}
+h2
+{
+	text-align: center;
+	
+}
+input
+{
+	width: 270px;
+	padding: 5px;
+	border:1px solid white;
+	outline: none;
+	margin-left: 10px;
+
+}
+p
+{
+	font-size: 15px;
+	text-align: center;
+}
+input[type="submit"]
+{
+	width: 100px;
+text-align: center;
+margin: 10px 100px auto;
+border-radius: 5px;
+}
+input[type="submit"]:hover
+{
+	background-color: #e1bb77;
+}
+
